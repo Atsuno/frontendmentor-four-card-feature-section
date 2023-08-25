@@ -534,9 +534,149 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-black {
+.fixed {
+  position: fixed;
+}
+
+.bottom-1 {
+  bottom: 0.25rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-rows-4 {
+  grid-template-rows: repeat(4, minmax(0, 1fr));
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.bg-slate-100 {
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+.bg-slate-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+}
+
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-\[15px\] {
+  font-size: 15px;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-extralight {
+  font-weight: 200;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.text-\[\#53556A\] {
+  --tw-text-opacity: 1;
+  color: rgb(83 85 106 / var(--tw-text-opacity));
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .attribution {
@@ -546,4 +686,70 @@ video {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: "Poppins";
+}
+
+.\[\&_\>div\]\:border-t-2 >div {
+  border-top-width: 2px;
+}
+
+.\[\&_\>div\]\:border-t-4 >div {
+  border-top-width: 4px;
+}
+
+.\[\&_\>div\]\:border-t-8 >div {
+  border-top-width: 8px;
+}
+
+.\[\&_\>div\]\:p-5 >div {
+  padding: 1.25rem;
+}
+
+.\[\&_\>div\]\:shadow-xl >div {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.\[\&_div\<img\]\:flex div<img {
+  display: flex;
+}
+
+.\[\&_div\<img\]\:justify-end div<img {
+  justify-content: flex-end;
+}
+
+.\[\&_div\>div\]\:flex div>div {
+  display: flex;
+}
+
+.\[\&_div\>div\]\:justify-end div>div {
+  justify-content: flex-end;
+}
+
+.\[\&_div\]\:flex div {
+  display: flex;
+}
+
+.\[\&_div\]\:justify-end div {
+  justify-content: flex-end;
+}
+
+.\[\&_div\~span\]\:flex div~span {
+  display: flex;
+}
+
+.\[\&_div\~span\]\:justify-end div~span {
+  justify-content: flex-end;
+}
+
+.\[\&_div\~span\~p\]\:flex div~span~p {
+  display: flex;
+}
+
+.\[\&_div\~span\~p\]\:justify-end div~span~p {
+  justify-content: flex-end;
 }
