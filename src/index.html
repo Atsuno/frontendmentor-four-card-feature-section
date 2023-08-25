@@ -24,40 +24,42 @@
   <body class="font font-poppins text-primaly text-[15px]">
     <div
       class="bg-rear flex flex-col gap-10 px-8 py-14 xl:items-center"
-      role="contentinfo"
+      aria-label="contentinfo"
     >
       <header class="pb-5 text-center md:w-full" aria-label="header">
-        <h1 class="text-2xl font-normal md:text-3xl" role="heading">
+        <h1 class="text-2xl font-normal md:text-3xl" aria-label="h1">
           Reliable, efficient delivery
         </h1>
-        <h2 class="pb-4 text-2xl font-semibold md:text-3xl" role="heading">
+        <h2 class="pb-4 text-2xl font-semibold md:text-3xl" aria-label="h2">
           Powered by Technology
         </h2>
-        <span class="text-md text-secondly" role="text">
+        <span class="text-md text-secondly" aria-label="text">
           Our Artificial Intelligence powered tools use millions of project data
           points to ensure that your project is successful
         </span>
       </header>
       <section
-        role="main grid"
+        aria-label="main grid"
         class="even:[&_p~p]:text-secondly grid grid-cols-1 grid-rows-4 gap-6 md:grid-cols-3 md:grid-rows-2 [&_>div]:rounded-lg [&_>div]:border-t-4 [&_>div]:p-7 [&_>div]:shadow-xl [&_>div]:duration-200 hover:[&_>div]:scale-105 [&_div>div]:grid [&_div>div]:justify-end [&_div>p]:w-full first:[&_div>p]:pb-2 first:[&_div>p]:text-lg first:[&_div>p]:font-semibold [&_img~p]:w-14 even:[&_p~p]:pb-7 even:[&_p~p]:text-sm"
       >
         <div
           class="border-boxcyan md:row-span-2 md:grid md:h-fit md:grid-cols-1 md:self-center"
           aria-label="Box Supervisor"
         >
-          <p role="text">Supervisor</p>
-          <p role="text">Monitors activity to identify project roadblocks</p>
-          <div aria-label="box image" role="img">
+          <p aria-label="text Supervisor">Supervisor</p>
+          <p aria-label="text">
+            Monitors activity to identify project roadblocks
+          </p>
+          <div aria-label="box image">
             <img src="./images/icon-supervisor.svg" alt="image Supervisor" />
           </div>
         </div>
         <div class="border-boxred" aria-label="Box Team Builder">
-          <p role="text">Team Builder</p>
-          <p role="text">
+          <p aria-label="text team Builder">Team Builder</p>
+          <p aria-label="text">
             Scans our talent network to create the optimal team for your project
           </p>
-          <div aria-label="box image" role="img">
+          <div aria-label="box image">
             <img
               src="./images/icon-team-builder.svg"
               alt="image team Builder"
@@ -68,9 +70,11 @@
           class="border-boxorange md:col-start-2 md:row-start-2"
           aria-label="Box Karma"
         >
-          <p role="text">Karma</p>
-          <p role="text">Regularly evaluates our talent to ensure quality</p>
-          <div aria-label="box image" role="img">
+          <p aria-label="text Karma">Karma</p>
+          <p aria-label="text">
+            Regularly evaluates our talent to ensure quality
+          </p>
+          <div aria-label="box image">
             <img src="./images/icon-karma.svg" alt="image Karma" />
           </div>
         </div>
@@ -78,11 +82,11 @@
           class="border-boxblue md:col-start-3 md:row-span-2 md:h-fit md:grid-cols-1 md:self-center"
           aria-label="Box Calculator"
         >
-          <p role="text">Calculator</p>
-          <p role="text">
+          <p aria-label="text Calculator">Calculator</p>
+          <p aria-label="text">
             Uses data from past projects to provide better delivery estimates
           </p>
-          <div aria-label="box image" role="img">
+          <div aria-label="box image">
             <img src="./images/icon-calculator.svg" alt="image Calculator" />
           </div>
         </div>
@@ -90,10 +94,10 @@
     </div>
 
     <footer class="bottom-1 mb-1 w-full" aria-label="footer">
-      <p class="text-center text-[11px]">
+      <p class="text-center text-[11px]" aria-label="Challenge by">
         Challenge by
         <a
-          role="link challenge"
+          aria-label="link challenge"
           class="text-[#6D6F78]"
           href="https://www.frontendmentor.io?ref=challenge"
           rel="noopener"
@@ -103,7 +107,7 @@
         <a
           href="https://github.com/Atsuno"
           class="text-[#6D6F78]"
-          role="link manke website"
+          aria-label="link manke website"
           >Atsuno</a
         >.
       </p>
